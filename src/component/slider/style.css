@@ -1,0 +1,79 @@
+@font-face {
+    font-family: boldFont;
+    src: url(../../assets/fonts/FSAlbertArabic-Bold.ttf);
+}
+.carousel img{
+    float: left;
+    height: 35rem;
+    max-width: 100%;
+    width: 35rem;
+        /*object-fit: cover;*/
+    margin: 35px;
+}
+
+.carousel-control-next,.carousel-control-prev{
+    display: none !important;
+}
+
+.carousel-caption{
+    float:right !important;
+    margin: 35px;
+    width: 42rem;
+    top: 15%;
+    right: 2% !important;
+}
+.carousel h1, p {
+    text-align:right;
+}
+.carousel .btn{
+    display: flex;
+    justify-content: space-between;
+}
+.carousel h1{
+    color: #F99F06;
+}
+.carousel p {
+    color: #656565;
+    margin-top: 47px;
+    font-family: boldFont;
+    font-size: 18px;
+    line-height: 40px;
+    height: 200px;
+}
+
+.carousel-indicators {
+    margin-right: unset;
+    bottom: 4rem;
+    display: block;
+}
+
+.carousel-indicators li {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #82C043;
+    border-top-left-radius: 75%;
+    border-bottom-right-radius: 75%;
+    width: 43px;
+    height: 22px;
+    margin: 3px;
+}
+
+.carousel-indicators .active {
+    background-color: #82C043;
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel img{
+        height: 25rem;
+        max-width: 100%;
+        width: 25rem;
+    }
+    .carousel-caption{
+        position: relative !important;
+        width: unset;
+    }
+    .carousel p {
+        width: 100%;
+        font-size: 16px;
+        height: auto;
+    }
+}

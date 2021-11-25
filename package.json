@@ -1,0 +1,65 @@
+{
+  "name": "slimnlight",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "latest",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@mui/icons-material": "^5.0.5",
+    "@mui/material": "^5.0.6",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.16.13",
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.0",
+    "create-pwa": "^2.3.1",
+    "email-validator": "^2.0.4",
+    "formik": "^2.2.9",
+    "pwa": "^1.9.7",
+    "react": "^17.0.2",
+    "react-bootstrap": "latest",
+    "react-dom": "^17.0.2",
+    "react-flickity": "^1.0.8",
+    "react-flickity-component": "^3.6.2",
+    "react-pwa-add-to-homescreen": "^1.1.7",
+    "react-pwa-install-prompt": "^1.0.5",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^4.0.3",
+    "react-simple-conditional": "^1.0.3",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.3",
+    "universal-cookie": "^4.0.4",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

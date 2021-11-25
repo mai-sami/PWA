@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  direction: rtl;
+  overflow-x: hidden;
+}
+.subscribe{
+  background-color: #82C043 !important;
+  outline: none;
+  font-size: 22px !important;
+  padding: 5px 20px !important;
+  text-align: center;
+  border: none !important
+}
+
+ .link-button{
+   width: 1200px;
+   height: 1200px;
+   background-color: #c75224;
+ }

@@ -1,0 +1,178 @@
+.card__Pay{
+    width: 60%;
+    padding-right: 0rem;
+    margin: 1rem 3rem 0 0;
+justify-content: center;}
+#pay__lable .css-ahj2mt-MuiTypography-root {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    color: #707070 !important;
+}
+#col{
+     text-align: right;
+    width: 70%;
+    display: flex;
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#buuton__personal{
+    background-color:#F4BB50;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    width: 55%;
+    padding: 9px;
+    margin-right: 2rem;
+    border: none;
+    justify-content: center;
+    color: white;
+}
+
+#input__pay{
+    font-size: 12px;
+    width: 70%;
+    padding:12px;
+
+}
+/* #input__pay:hover ,:focus{
+    border:1px solid #7CB264 
+}
+  */
+.vl {
+    border-left: 1px solid #707070;
+    height: 170px;
+    position: absolute;
+    float: left;
+    top:30%;
+    right: 40% !important;
+  }
+
+  .limits{
+      width: 58%;
+      text-align: right;
+   }
+  .in__Dex{
+      width: 60%;
+      margin: auto;
+   }
+  #cols{
+    text-align: right;
+   width: 100%;
+   display: flex;
+   padding-top: 2rem;
+   align-items: center;
+   justify-content: space-between;
+
+}
+#chan .form-check-label{
+    font-size: 14px;
+}
+#span__chan{
+     color: #2969FF;
+     font-size: 14px;
+     margin-right: -20px;
+     text-align: right;
+ }
+
+ #input__personals{
+    font-size: 13px;
+    font-weight: 700;
+    padding:12px;
+    text-transform: uppercase;
+
+}
+ #input__personals:hover{
+    border:1px solid #7CB264 !important
+} 
+
+#col__padding{
+    padding-top:5rem;
+}
+
+#q__Q{
+     width: 100%;
+    margin: 1.2rem 0rem !important;
+    padding-top: 1rem;
+}
+
+
+.profile-pic {
+    color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: relative;
+     width: 100%;
+     flex-direction: column;
+     border: 1px solid #DDD6D6;
+     border-radius: 8px;
+     height: 120px;
+    transition: all 0.3s ease;
+}
+.profile-pic input {
+    display: none;
+}
+.profile-pic img {
+    position: absolute;
+    object-fit: cover;
+    
+     z-index: 0;
+}
+.profile-pic label {
+    cursor: pointer;
+    padding-top: 2rem;
+}
+ 
+ #model__pay{
+     display: flex !important;
+     flex-direction: column !important;
+     align-items: center !important;
+     text-align: center !important;
+     justify-content: center !important;
+ }
+
+ #lable__Pay{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 1.3rem 0px 0px .2rem;
+}
+
+#lable__pay{
+    font-size: 16px;
+     font-weight: 100;
+     color: #F18931;
+     align-items: center;
+    padding: 1.3rem 0px 0px 1.2rem;
+}
+#lable__pays{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 0rem 0px 0px .5rem;
+}
+#lable__pay__color{
+    color: #47B667;
+    font-size: 16px;
+
+
+}
+
+#button__pau{
+    width: 70%;
+   margin: 1.2rem 0rem !important;
+   padding-top: 1rem;
+   margin: auto;
+}
+
+#lable__data__P{
+    font-size: 15px;
+      align-items: center;
+    padding: .3rem   0rem;
+}
+#lable__data__P span{
+    font-weight: 600;
+    padding: .2rem;
+    color: #707070;
+}

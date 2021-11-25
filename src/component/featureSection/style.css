@@ -1,0 +1,54 @@
+/* @font-face {
+    font-family: regularFont;
+    src: url(../../assets/fonts/FSAlbertArabic-Regular.ttf);
+}
+.feature{
+    font-family: regularFont;
+    margin: 5rem auto;
+    width: 80% !important;
+}
+
+.feature h1{
+    color: #F99F06;
+    font-size: 60px;
+    text-align: center;
+}
+.sub-title p {
+    font-size: 14px;
+    color: #707070;
+}
+.sub-title{
+    width: 80%;
+ }
+.row{
+    width: 80%;
+    margin: auto !important;
+}
+.card{
+    border: none !important;
+    width: 295px;
+}
+.card:hover{
+ box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+.card-body{
+    text-align: center;
+    margin:25px auto 0 auto;
+    width: 80%;
+}
+.card-text{
+    text-align: center;
+}
+.card-img{
+    width: 62px !important;
+    display: block;
+    margin: 50px auto 0 auto;
+}
+@media only screen and (max-width: 768px) {
+    .row{
+        width: 100%;
+    }
+    .card{
+        width: unset !important;
+    }
+} */

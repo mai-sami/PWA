@@ -1,0 +1,27 @@
+ 
+
+  {
+    "short_name": "PWA in Cosmic JS",
+    "name": "Progressive Web App in React & Cosmic JS",
+    "icons": [
+      {
+      "src": "image/icon-192x192.png",
+       "sizes": "192x192",
+        "purpose": "any maskable",
+        "type": "image/png"
+
+    },
+    {
+      "src": "image/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/home",
+  "theme_color": "#F4BD42",
+  "background_color": "#2B2929",
+  "display": "standalone",
+  "prefer_related_applications": true
+ 
+
+   }

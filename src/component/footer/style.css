@@ -1,0 +1,76 @@
+@font-face {
+    font-family: regularFont;
+    src: url(../../assets/fonts/FSAlbertArabic-Regular.ttf);
+}
+.wrapper{
+    background-color: #82C043;
+    height: 320px;
+    color: #FCFCFC;
+    font-family: regularFont;
+    margin-top: 5.5rem;
+ }
+.about-side p {
+    height: 100px;
+    width: 400px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 1rem;
+    text-align: right;
+ 
+}
+
+.icon {
+    text-align: right;
+    display: flex;
+}
+.icon a{
+    color: #4e4a4a ;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+.list-unstyled{
+    text-align: right;
+    padding-left: unset;
+    margin-top: 2rem;
+}
+.list-unstyled li{
+    margin-top: 10px;
+}
+.list-unstyled li a {
+    text-decoration: none;
+    color: #FCFCFC;
+    padding: 27px;
+}
+.col-md-6.mt-md-0.mt-3.about-side{
+
+    text-align: right;
+}
+.logo-footer{
+ align-items: right;
+ }
+ 
+ .circle__footer{
+     width: 30px;
+     height: 30px;
+     display: flex;
+     align-items: center;
+
+      justify-content: center;
+     border-radius: 50%;
+     background-color: #FCFCFC;
+ }
+@media only screen and (max-width: 860px) {
+    .wrapper{
+        height: unset;
+    }
+    .about-side p{
+        width: unset;
+        height: unset;
+    }
+    .list-unstyled{
+        text-align: center;
+        padding-left: 2rem;
+    }
+
+}

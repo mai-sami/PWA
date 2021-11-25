@@ -1,0 +1,239 @@
+@font-face {
+    font-family: regularFont;
+    src: url(../../assets/fonts/FSAlbertArabic-Regular.ttf);
+}
+.signInForm{
+    font-family: regularFont;
+    margin-top:4rem ;
+}
+.headerText{
+    color: #636260;
+ }
+.custom-input ,.error-input{
+    background-color: #FFFFFF !important;
+    border-radius: 0.5rem !important;
+    text-align: right;
+    height: unset;
+    width: 27rem !important;
+    padding: 12px !important;
+}
+.custom-input {
+    border: 1px solid #495057 !important;
+ }
+#custom-input {
+    border: 1px solid #82BF43 !important;
+    border-radius: 5px !important;
+}
+.error-input{
+    border-color:#EE6A6E !important;
+}
+#custom-input:focus {
+    color: #495057;
+    background-color: #FFFFFF !important;
+    border-color: #82BF43 !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+.custom-input:focus {
+    color: #495057;
+    background-color: #FFFFFF !important;
+    border-color: #82BF43 !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+.form-check .form-check-input {
+    float: right !important;
+    margin-left: 4px !important;
+}
+.sigIn-btn{
+    width: 50.5%;
+    background-color: #82BF43 !important;
+    outline: none;
+    padding: 10px 20px !important;
+    text-align: center;
+    border: none !important;
+    height: 50px;
+    display: block !important;
+    margin: 4% 8%;
+}
+.par-create-acc{
+    padding: 10px 20px ;
+    text-align: center;
+    margin-left: 13rem;
+    font-weight: 300;
+}
+.par-create-acc .create-acc{
+    color: #82C043;
+    text-decoration: none;
+}
+
+.form-group{
+    position: relative;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.form-group svg {
+    position: absolute;
+    left: 25.5%;
+    font-size: 15px;
+    cursor: pointer;
+     color: lightgray;
+}
+label{
+    color: #636260;
+}
+.form-groupss svg {
+    position: absolute;
+    left: 10.5%;
+    top: 22%;
+    font-size: 15px;
+    cursor: pointer;
+     color: lightgray;
+}
+.checkbox{
+    display: flex;
+}
+.checkbox .checkbox__p {
+     color: #82C043;
+     margin-right: 13rem 
+}
+.text-danger{
+    margin-right: -2.5rem;
+}
+ .support__same{
+    background-color: #FF987A;
+    border-radius: 50%;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-top: 2.3rem;
+}
+.support__same img{
+    color: #FCFCFC;
+    width: 33px;
+
+}
+
+/***********modal**********/
+.modal-content{
+    border: none ;
+    border-radius: 20px ;
+    width: 100% ;
+   min-height: 280px ;
+    padding: 35px ;
+}
+ 
+.modal-title{
+    margin: auto ;
+    font-size: 20px;
+    font-family: regularFont, serif;
+    line-height: 35px;
+    font-weight: 300 !important;
+
+    color: #707070;
+}
+.close{
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 3px 6px;
+    line-height: 20px;
+    right: -8px;
+    top: -10px;
+    font-size: 25px;
+    background: #707070;
+    color: white;
+    border-radius: 18px;
+    border: none;
+}
+.modal-body{
+    padding:1rem 0 !important ;
+}
+.modal-body p {
+    font-size: 13px;
+    color: #707070;
+    line-height: 15px;
+    font-family: regularFont, serif ;
+    /*font-weight: 100;*/
+    text-align: right;
+}
+.modal-footer {
+    display: flex ;
+    justify-content: center;
+padding: 0px !important;
+    text-align: center;
+}
+.subscribetion:hover{
+    background-color: #7CB264 !important;
+
+}
+#code{
+    font-size: 22px;
+    text-align: right;
+    color: #707070;
+
+} 
+.subscribetion{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+     border: none;
+    font-size: 15px;
+    padding: .6rem;
+    background-color: #7CB264 !important;
+    width: 42%;
+}
+#custom-input {
+    border: 1px solid #82C043 !important ;
+    padding: 7px !important;
+    width: 95% !important;
+}
+.modal-header {
+    border-bottom: 0 none !important;
+}
+
+.modal-footer {
+    border-top: 0 none !important;
+}
+
+.form__c{
+    display: flex;
+    flex-direction: column;
+}
+#yes{
+    color: #707070;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+#body__sucse{
+ justify-content: center;   
+     display: flex;
+    align-items: center;
+    text-align: center;
+ 
+}
+@media only screen and (max-width: 768px) {
+    .sideImg{
+        display: none;
+    }
+    .par-create-acc{
+        margin-left: 0;
+    }
+ 
+
+}
+.form-groupss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+     padding-top: 1rem;
+}

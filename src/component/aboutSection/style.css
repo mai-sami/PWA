@@ -1,0 +1,29 @@
+@font-face {
+    font-family: regularFont;
+    src: url(../../assets/fonts/FSAlbertArabic-Regular.ttf);
+}
+.about-us{
+    font-family: regularFont;
+    width: 90%;
+    margin: auto;
+}
+.title{
+    color: #F99F06;
+}
+.side_img{
+    margin-left: 10rem;
+}
+.sub-title-about{
+    line-height: 38px;
+    font-size: 12px;
+    font-family: regularFont;
+
+    color: #8B8A8A;
+}
+#subscribe{
+    background-color: #FF987A !important;
+color: white;
+border: none;
+width: 32%;
+border-radius: 22px;
+}
